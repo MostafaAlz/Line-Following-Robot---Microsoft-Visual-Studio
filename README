@@ -1,0 +1,23 @@
+I have provided a DEMO video (MUST CLICK RAW TO VIEW)
+Main.cpp and StudnetCode.cpp has been provided to showcase the code that was used (these are the imporant functions to showcase how the sensors work and how the robot moves).
+
+Short summary of Main.cpp code 
+  - Includes the iostream and Simulation.h header files. It defines the main function where an instance of the Simulation class is created. 
+Various settings for the simulation window, such as size, title, position, and clock, are configured. The simulation is then initialized and executed using 
+the InitializeSimulation and Run methods. The program concludes by returning 0, indicating successful execution.
+
+Short summary of StudentCode.cpp code
+- Code presents a function named StudentCode designed to handle the control logic for a rover based on five boolean parameters representing sensor readings (sensor1 through sensor5). 
+The code employs a series of conditional statements to determine the appropriate values for leftWheel and rightWheel, essentially defining the rover's movement strategy in response to different sensor configurations.
+
+The logic appears to be structured to accommodate a variety of scenarios, with specific combinations of sensor readings influencing the decision-making process. 
+The resulting leftWheel and rightWheel values are then printed to the console, providing a visual representation of the rover's intended movement.
+
+Moreover, the code includes a user interaction element by prompting the user to press Enter to continue after displaying the sensor readings and wheel values. This design feature suggests an intention to allow for 
+step-by-step execution, potentially aiding in debugging or understanding the rover's behavior under different sensor conditions.
+
+Finally, the function concludes by invoking another function called Control with the calculated leftWheel and rightWheel values. The actual behavior of the rover is likely defined within the Control function, making it 
+a crucial part of the overall system.
+
+In summary, the code allows control over the mechanism for a rover, with a focus on adaptability to diverse sensor input scenarios and a provision for user interaction during execution. The complete functionality
+and behavior of the rover would be contingent on the implementation details within the Control function and the specific physical setup of the rover system.
